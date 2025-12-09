@@ -16,7 +16,7 @@ python2 dec_hik.py ./digicap.dav
 $ podman run -it python:2.7 bash
 
  python -m pip install --upgrade pip
-
+```bash
 pip install pycrypto
 DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
 Collecting pycrypto
@@ -182,3 +182,4 @@ drwxr-xr-x. 8 root root      163 Dec  9 15:07 .git
 drwxr-xr-x. 3 root root      130 Dec  9 15:07 .
 -rw-r--r--. 1 root root  4521984 Dec  9 15:07 ipc_db.jffs2
 root@c05d8de22ad2:~/Decrypt-Firmware-Hikvision#
+```
